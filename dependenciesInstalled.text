@@ -1,0 +1,5 @@
+Nodemon= Yes
+Mongoose = Yes
+Cors = Yes
+Express = Yes
+DotEnv = Yes
