@@ -10,8 +10,11 @@ const app= express()
 const portNo=process.env.PORT // port number
 
 // =========================================== Configuration Ends here =============================
+app.use(express.json());
 
 app.get("/",(req,res)=>{ 
     res.send("Hello from express!")
 }).listen(portNo,()=>{console.info(`Server Started in http://localhost:${portNo}/`)})
 // =========================================== Server Startup Ends Here =============================
+
+
