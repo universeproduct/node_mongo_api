@@ -19,7 +19,7 @@ app.use('/api/protected', protectedRoutes);
 
 
 app.get("/",(req,res)=>{ 
-    res.send("Hello from express!")
+    res.send("Server Started!")
 }).listen(portNo,()=>{console.info(`Server Started in http://localhost:${portNo}/`)})
 // =========================================== Server Startup Ends Here =============================
 
